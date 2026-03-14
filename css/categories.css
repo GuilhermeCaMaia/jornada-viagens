@@ -1,11 +1,3 @@
-.categories{
-    margin-bottom: 80px;
-}
-.categories .section-title {
-    width: 312px;
-    margin: 0 auto;
-}
-
 .categories-cards {
     display: flex;
     flex-direction: column;
@@ -28,7 +20,7 @@
 
 .categories-cards a.card h3 {
     font-size: 28px;
-    font-weight: var(--titles-weight);
+    font-weight: var(--title-weight);
 }
 
 .categories-cards a.card.single-line {
@@ -58,7 +50,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .categories-cards a.card {
+    .categories-cards .card {
         width: 280px;
     }
 }

@@ -18,10 +18,6 @@
     text-align: center;
 }
 .offers-cards .card header{
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0; 
     margin-bottom: 24px;
 }
 .offers-cards .card header p{
@@ -30,7 +26,7 @@
 }
 .offers-cards .card header h3 {
     font-size: 40px;
-    font-weight: var(--titles-weight);
+    font-weight: var(--title-weight);
     margin: 8px 0 0;
 }
 .offers-cards .card header span {
